@@ -1,9 +1,11 @@
 # 🚀 GK CLI - Guía de Comandos Esenciales
+
 ## by kellerEToro - Oscar Rojas Ortiz | ORO
 
 ### 📋 COMANDOS PRINCIPALES
 
 #### 🖥️ **Servidor MCP**
+
 ```bash
 # Iniciar servidor completo
 npm run server-simple
@@ -17,6 +19,7 @@ open http://localhost:3000/dashboard
 ```
 
 #### ⚙️ **CLI Interactivo**
+
 ```bash
 # Modo interactivo principal
 npm start
@@ -29,6 +32,7 @@ npm run interactive
 ```
 
 #### 🔧 **Configuración**
+
 ```bash
 # Configuración inicial
 npm run setup
@@ -41,6 +45,7 @@ npm run config
 ```
 
 #### 🤖 **Automatización**
+
 ```bash
 # Ejecutar workflows
 npm run workflow
@@ -53,6 +58,7 @@ npm run backup
 ```
 
 #### 🧹 **Mantenimiento**
+
 ```bash
 # Limpiar archivos temporales
 npm run clean
@@ -66,9 +72,9 @@ npm run status
 
 ### 🎯 **URLs IMPORTANTES**
 
-- **Dashboard:** http://localhost:3000/dashboard
-- **API Health:** http://localhost:3000/api/health  
-- **API Info:** http://localhost:3000/api/info
+- **[Dashboard](http://localhost:3000/dashboard)**
+- **[API Health](http://localhost:3000/api/health)**
+- **[API Info](http://localhost:3000/api/info)**
 
 ### 🔑 **CONFIGURACIÓN .env**
 
@@ -88,7 +94,8 @@ JIRA_API_TOKEN=tu_token_jira
 
 ### 🚨 **SOLUCIÓN DE PROBLEMAS**
 
-#### El servidor no inicia:
+#### El servidor no inicia
+
 ```bash
 # Verificar puerto libre
 lsof -i :3000
@@ -99,7 +106,8 @@ npm install
 npm run server-simple
 ```
 
-#### Problemas de dependencias:
+#### Problemas de dependencias
+
 ```bash
 # Reinstalar todo
 rm -rf node_modules
@@ -107,7 +115,8 @@ npm install
 npm audit fix --force
 ```
 
-#### Verificar funcionamiento:
+#### Verificar funcionamiento
+
 ```bash
 # Test completo
 npm run status
@@ -127,9 +136,9 @@ curl http://localhost:3000/api/health
 ### 📞 **SOPORTE**
 
 - **Autor:** Oscar Rojas Ortiz | ORO
-- **Email:** rojort.os@kelleretoro.com  
+- **Email:** [rojort.os@kelleretoro.com](mailto:rojort.os@kelleretoro.com)
 - **Empresa:** kellerEToro
-- **URL:** https://kelleretoro.com
+- **[URL](https://kelleretoro.com)**
 
 ---
 *Sistema completo y optimizado - Listo para producción* 🌟

@@ -1,57 +1,66 @@
 # GK CLI Branding - Sistema Avanzado Completo
 
-<div align="center">
 
-```
-    ██████╗ ██╗  ██╗      ██████╗██╗     ██╗                         
+```text
+  ██████╗ ██╗  ██╗      ██████╗██╗     ██╗                         
    ██╔════╝ ██║ ██╔╝     ██╔════╝██║     ██║                         
    ██║  ███╗█████╔╝█████╗██║     ██║     ██║                         
    ██║   ██║██╔═██╗╚════╝██║     ██║     ██║                         
    ╚██████╔╝██║  ██╗     ╚██████╗███████╗██║                         
-    ╚═════╝ ╚═╝  ╚═╝      ╚═════╝╚══════╝╚═╝                         
+  ╚═════╝ ╚═╝  ╚═╝      ╚═════╝╚══════╝╚═╝                         
                                                                       
-           🎨 BRANDING • REPORTES • CLI • AUTOMATION                 
-                          by kellerEToro                           
+       🎨 BRANDING • REPORTES • CLI • AUTOMATION                 
+              by kellerEToro                           
 ```
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](package.json)
 [![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-green.svg)](package.json)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**Sistema completo de branding, automatización y gestión de proyectos con integraciones avanzadas**
 
-</div>
+## Sistema completo de branding, automatización y gestión de proyectos con integraciones avanzadas
 
 ## 🌟 Características Principales
 
+
 ### 🎨 **Branding Personalizado**
+
 - Identidad visual completa con `•K e l £ ə r•`
 - Alter ego: `Extraterrestrial ▲ ET`
 - Nombre: `Oscar Rojas Ortiz | ORO`
 - Empresa: `kellerEToro`
 
+
 ### 🌐 **Integraciones API Externas**
+
 - **GitHub**: Repositorios, issues, PRs, webhooks
 - **Jira**: Proyectos, tickets, sprints, transiciones
 - **GitKraken**: Boards Kanban, cards, colaboración
 
+
 ### 🖥️ **Servidor MCP Completo**
+
 - API REST con autenticación JWT
 - WebSockets para tiempo real
 - Base de datos SQLite integrada
 - Dashboard web administrativo
 
+
 ### ⚙️ **Configuración Avanzada**
+
 - Múltiples perfiles de usuario
 - Configuración por ambiente (dev/prod/test)
 - Encriptación de datos sensibles
 - Backup y restauración automática
 
+
 ### 🤖 **Sistema de Automatización**
+
 - Workflows programables (cron jobs)
 - Scripts automáticos personalizados
 - Integración CI/CD completa
 - Notificaciones y alertas
+
 
 ## 📦 Instalación Rápida
 
@@ -75,20 +84,27 @@ npm run server
 
 ## 🚀 Uso Rápido
 
+
 ### CLI Interactivo Mejorado
+
 ```bash
 npm start                    # Modo interactivo visual
 npm run interactive          # Alternativa explícita
 ```
 
+npm run dev                 # Desarrollo con hot-reload
+
 ### Servidor MCP Completo
+
 ```bash
 npm run server              # Producción (puerto 3000)
 npm run dev                 # Desarrollo con hot-reload
 npm run prod                # Optimizado para producción
 ```
 
+
 ### Gestión de Configuración
+
 ```bash
 npm run config get server.port                    # Obtener valor
 npm run config set apis.github.token "tu-token"   # Establecer valor
@@ -96,14 +112,18 @@ npm run config list-profiles                      # Listar perfiles
 npm run config switch-profile production          # Cambiar perfil
 ```
 
+
 ### Automatización y Workflows
+
 ```bash
 npm run workflow list       # Ver workflows disponibles
 npm run workflow stats      # Estadísticas de ejecución
 npm run workflow run daily-backup  # Ejecutar workflow específico
 ```
 
+
 ### APIs Externas
+
 ```bash
 npm run api github repos                    # Listar repositorios
 npm run api github issues owner repo       # Ver issues
@@ -111,9 +131,10 @@ npm run api jira projects                   # Proyectos Jira
 npm run api gitkraken boards              # Boards GitKraken
 ```
 
+
 ## 📋 Estructura del Proyecto
 
-```
+```text
 gk-cli-branding/
 ├── 📁 src/
 │   ├── 📁 api/                    # Integraciones API externas
@@ -185,16 +206,20 @@ npm run config switch-profile team  # Cambiar a perfil "team"
 
 ## 🌐 API REST Endpoints
 
+
 ### Autenticación
-```
+
+```http
 POST /api/auth/register    # Registrar usuario
 POST /api/auth/login       # Iniciar sesión
 POST /api/auth/refresh     # Renovar token
 POST /api/auth/logout      # Cerrar sesión
 ```
 
-### Usuarios y Proyectos  
-```
+
+### Usuarios y Proyectos
+
+```http
 GET    /api/user/profile           # Perfil usuario
 PUT    /api/user/profile           # Actualizar perfil
 GET    /api/projects               # Listar proyectos
@@ -204,13 +229,15 @@ PUT    /api/projects/:id           # Actualizar proyecto
 DELETE /api/projects/:id           # Eliminar proyecto
 ```
 
+
 ### Integraciones
-```
+
+```http
 GET  /api/github/repos                    # Repositorios GitHub
 GET  /api/github/repos/:owner/:repo/issues # Issues GitHub
 POST /api/github/repos/:owner/:repo/issues # Crear issue GitHub
 
-GET  /api/jira/projects                   # Proyectos Jira  
+GET  /api/jira/projects                   # Proyectos Jira
 GET  /api/jira/projects/:key/issues       # Issues Jira
 POST /api/jira/issues                     # Crear issue Jira
 
@@ -218,8 +245,10 @@ GET  /api/gitkraken/boards               # Boards GitKraken
 GET  /api/gitkraken/boards/:id/cards     # Cards del board
 ```
 
+
 ### Branding y Analytics
-```
+
+```http
 GET /api/branding                    # Configuración branding
 GET /api/branding/report            # Reporte completo
 GET /api/branding/template/:type    # Plantilla específica
@@ -228,7 +257,9 @@ GET /api/analytics/dashboard        # Analytics dashboard
 
 ## 🤖 Workflows Incluidos
 
+
 ### 1. Backup Diario Automático
+
 ```json
 {
   "id": "daily-backup",
@@ -242,7 +273,9 @@ GET /api/analytics/dashboard        # Analytics dashboard
 }
 ```
 
+
 ### 2. Sincronización GitHub ↔ Jira
+
 ```json
 {
   "id": "github-jira-sync", 
@@ -256,7 +289,9 @@ GET /api/analytics/dashboard        # Analytics dashboard
 }
 ```
 
+
 ### 3. Reporte Semanal
+
 ```json
 {
   "id": "weekly-report",
@@ -274,9 +309,11 @@ GET /api/analytics/dashboard        # Analytics dashboard
 
 Accede al dashboard web en: `http://localhost:3000/dashboard`
 
-### Funcionalidades del Dashboard:
+
+### Funcionalidades del Dashboard
+
 - 📈 **Analytics en tiempo real** - Métricas de uso y rendimiento
-- 👥 **Gestión de usuarios** - Roles, permisos y actividad  
+- 👥 **Gestión de usuarios** - Roles, permisos y actividad
 - 📋 **Proyectos visuales** - Kanban boards y seguimiento
 - 🔗 **Integraciones** - Estado de APIs y sincronización
 - 🤖 **Workflows** - Editor visual y programación
@@ -284,15 +321,19 @@ Accede al dashboard web en: `http://localhost:3000/dashboard`
 
 ## 🔒 Seguridad
 
-### Características de Seguridad:
+
+### Características de Seguridad
+
 - **JWT Authentication** con refresh tokens
-- **Rate Limiting** configurable por endpoint  
+- **Rate Limiting** configurable por endpoint
 - **CORS** con whitelist de dominios
 - **Helmet.js** para headers seguros
 - **Validación Joi** para todos los inputs
 - **Encriptación AES-256-GCM** para datos sensibles
 
-### Mejores Prácticas Implementadas:
+
+### Mejores Prácticas Implementadas
+
 - Separación de secretos por ambiente
 - Rotación automática de tokens
 - Logs de seguridad y auditoría
@@ -301,21 +342,25 @@ Accede al dashboard web en: `http://localhost:3000/dashboard`
 
 ## 📈 Monitoreo y Logs
 
-### Sistema de Logging:
+
+### Sistema de Logging
+
 ```javascript
 // Configuración de logs
 {
   level: 'info',           // debug, info, warn, error
   format: 'combined',      // Morgan format
-  file: './logs/app.log',  # Archivo de logs
+  file: './logs/app.log',  // Archivo de logs
   maxSize: '10m',         // Rotación por tamaño
   maxFiles: 5             // Archivos históricos
 }
 ```
 
-### Métricas Disponibles:
+
+### Métricas Disponibles
+
 - 📊 **Requests por minuto** - Tráfico de API
-- ⏱️ **Tiempo de respuesta** - Latencia promedio  
+- ⏱️ **Tiempo de respuesta** - Latencia promedio
 - 🔄 **Workflows ejecutados** - Estadísticas de automatización
 - 👥 **Usuarios activos** - Sesiones y actividad
 - 🌐 **APIs externas** - Calls y rate limits
@@ -338,12 +383,16 @@ npm run test:api
 
 ## 🚀 Deployment
 
+
 ### Desarrollo
+
 ```bash
 npm run dev                # Servidor desarrollo
 ```
 
-### Producción  
+
+### Producción
+
 ```bash
 # Configurar ambiente
 export NODE_ENV=production
@@ -357,7 +406,9 @@ DATABASE_PATH=/data/production.sqlite
 npm run prod
 ```
 
+
 ### Docker (Opcional)
+
 ```dockerfile
 FROM node:18-alpine
 WORKDIR /app
@@ -370,15 +421,21 @@ CMD ["npm", "run", "prod"]
 
 ## 📚 Documentación API
 
-### Generación Automática:
+
+### Generación Automática
+
 - **OpenAPI 3.0** spec disponible en `/api/docs`
-- **Swagger UI** interactivo en `/api/docs/ui`  
+- **Swagger UI** interactivo en `/api/docs/ui`
 - **Postman Collection** exportable
 - **Insomnia Workspace** incluido
 
-### Ejemplos de Uso:
 
-#### Autenticación
+### Ejemplos de Uso
+
+
+
+#### Autenticación de API
+
 ```javascript
 // Login
 const response = await fetch('/api/auth/login', {
@@ -393,7 +450,9 @@ const response = await fetch('/api/auth/login', {
 const { token } = await response.json();
 ```
 
+
 #### Uso con Token
+
 ```javascript
 // Requests autenticados
 const projects = await fetch('/api/projects', {
@@ -405,7 +464,9 @@ const projects = await fetch('/api/projects', {
 
 ## 🔧 Desarrollo y Contribución
 
-### Configuración de Desarrollo:
+
+### Configuración de Desarrollo
+
 ```bash
 # Fork y clone
 git clone https://github.com/tu-usuario/gk-cli-branding.git
@@ -421,18 +482,22 @@ npm run prepare
 npm run dev
 ```
 
-### Estructura de Commits:
-```
+
+### Estructura de Commits
+
+```text
 feat: nueva funcionalidad
 fix: corrección de bug
-docs: actualización documentación  
+docs: actualización documentación
 style: cambios de formato
 refactor: refactorización
 test: añadir tests
 chore: tareas de mantenimiento
 ```
 
-### Pull Requests:
+
+### Pull Requests
+
 1. Fork del repositorio
 2. Crear rama feature: `git checkout -b feature/nueva-funcionalidad`
 3. Commits descriptivos siguiendo convención
@@ -442,38 +507,51 @@ chore: tareas de mantenimiento
 
 ## 🏗️ Roadmap Futuro
 
-### 🔮 Próximas Funcionalidades:
+
+### 🔮 Próximas Funcionalidades
+
 
 #### Q1 2025
+
 - [ ] **Plugin System** - Arquitectura de plugins extensible
 - [ ] **GraphQL API** - Alternativa a REST API
 - [ ] **Real-time Dashboard** - Updates en vivo con WebSockets
 - [ ] **Mobile App** - Companion app React Native
 
-#### Q2 2025  
+
+#### Q2 2025
+
 - [ ] **AI Integration** - ChatGPT/Claude para workflows
 - [ ] **Advanced Analytics** - ML para insights predictivos
 - [ ] **Multi-tenant** - Soporte para múltiples organizaciones
 - [ ] **Kubernetes** - Deployment cloud-native
 
+
 #### Q3 2025
+
 - [ ] **Blockchain Integration** - NFTs para branding assets
-- [ ] **AR/VR Support** - Branding en realidad aumentada  
+- [ ] **AR/VR Support** - Branding en realidad aumentada
 - [ ] **Voice Commands** - Control por voz
 - [ ] **Global CDN** - Distribución mundial
 
 ## 🤝 Soporte y Comunidad
 
-### 📞 Contacto:
-- **Email**: rojort.os@kelleretoro.com
-- **Website**: https://kelleretoro.com  
+
+### 📞 Contacto
+
+- **Email**: [rojort.os@kelleretoro.com](mailto:rojort.os@kelleretoro.com)
+- **Website**: [https://kelleretoro.com](https://kelleretoro.com)
 - **Phone**: +52 5532298221
 
-### 🌐 Redes Sociales:
+
+### 🌐 Redes Sociales
+
 - **Instagram**: [@kelleretoro](https://instagram.com/kelleretoro)
 - **Facebook**: [kelleretoroph](https://facebook.com/kelleretoroph)
 
-### 🏷️ Hashtags:
+
+### 🏷️ Hashtags
+
 - `#KellerOjo` `#kellerETojo` `#kellerEToro`
 
 ### 🎨 Paleta de Colores:
