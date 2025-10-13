@@ -1,0 +1,12 @@
+{
+  "server": {
+    "port": 3000,
+    "debug": true
+  },
+  "logging": {
+    "level": "debug"
+  },
+  "database": {
+    "debug": true
+  }
+}

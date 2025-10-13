@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-10-13T06:48:25.135Z",
+  "branding": {
+    "KELLER_NICKNAME_ARTIST": "•K e l £ ə r•",
+    "KELLER_ALTER_EGO": "Extraterrestrial ▲ ET",
+    "KELLER_NAME": "Oscar Rojas Ortiz | ORO",
+    "KELLER_SOCIAL": [
+      "Instagram: @kelleretoro (https://instagram.com/kelleretoro)",
+      "Facebook: kelleretoroph (https://facebook.com/kelleretoroph)"
+    ],
+    "KELLER_HASHTAGS": [
+      "#KellerOjo",
+      "#kellerETojo",
+      "#kellerEToro"
+    ],
+    "KELLER_PALLETS": [
+      "#8dffe9",
+      "#4bfbd6",
+      "#283431",
+      "#01f8fe",
+      "#2a302b"
+    ],
+    "KELLER_LICENSE": [
+      "BSD 3-Clause (software)",
+      "CC BY-ND 4.0 (imágenes, logos y colores)"
+    ],
+    "KELLER_LICENSE_LINK": "./LICENSE",
+    "KELLER_KEYWORDS": [
+      "kelleretoro",
+      "keller",
+      "kel£ǝr",
+      "trends",
+      "google",
+      "photo",
+      "foto",
+      "fotografía",
+      "México"
+    ],
+    "CONTACTO": {
+      "KELLER_MAIL": "rojort.os@kelleretoro.com",
+      "KELLER_PHONE": "+52 5532298221",
+      "KELLER_WEBSITE": "kelleretoro.com",
+      "KELLER_SOCIAL_NETWORKS": [
+        "Instagram: @kelleretoro (https://instagram.com/kelleretoro)",
+        "Facebook: kelleretoroph (https://facebook.com/kelleretoroph)",
+        "Blogspot: kellershots.blogspot.com (https://kellershots.blogspot.com/)"
+      ]
+    },
+    "LOGOS": [
+      "https://raw.githubusercontent.com/Kelleretoro/ssh-log-cli/main/assets/logo.png",
+      "https://raw.githubusercontent.com/Kelleretoro/ssh-log-cli/main/assets/letrero.jpg"
+    ]
+  },
+  "validation": {
+    "nickname": true,
+    "email": true,
+    "hashtags": true,
+    "colors": true,
+    "logos": true,
+    "contact": true
+  },
+  "stats": {
+    "hashtags": 3,
+    "colors": 5,
+    "social_networks": 3,
+    "logos": 2,
+    "keywords": 9
+  }
+}

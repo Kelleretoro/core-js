@@ -1,0 +1,24 @@
+{
+  "user": {
+    "preferences": {
+      "theme": "dark",
+      "language": "es",
+      "notifications": true
+    }
+  },
+  "integrations": {
+    "github": {
+      "enabled": false
+    },
+    "jira": {
+      "enabled": false
+    },
+    "gitkraken": {
+      "enabled": false
+    }
+  },
+  "automation": {
+    "enabled": true,
+    "schedules": {}
+  }
+}
